@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="action_search" model="ir.actions.client">
+            <field name="name">搜吧</field>
+            <field name="tag">search_you_want</field>
+        </record>
+
+    <menuitem id="search_main_menu"
+              name="搜你所想"/>
+
+    <menuitem id="search_menu"
+              name="搜吧"
+              parent="search_main_menu"
+              action="action_search" />
+    </data>
+</odoo>

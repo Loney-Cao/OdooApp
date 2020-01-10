@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend" name="Web Custom Color Assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <!--<link rel="stylesheet" href="/account/static/src/css/account.css"/>-->
+
+            <script type="text/javascript" src="/cs_web_custom_color/static/src/js/abstract_field.js"/>
+        </xpath>
+    </template>
+</odoo>

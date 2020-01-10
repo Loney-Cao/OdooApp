@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="assets_backend" name="cs_online_chat_assets" inherit_id="web.assets_backend">
+            <xpath expr="//link[last()]" position="after">
+                <link rel="stylesheet" href="/cs_online_chat/static/src/css/chatting_view.css"/>
+            </xpath>
+
+            <xpath expr="//script[last()]" position="after">
+                <script type="text/javascript" src="/cs_online_chat/static/src/js/chatting_widget.js"/>
+            </xpath>
+    </template>
+    </data>
+</odoo>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="action_chatting" model="ir.actions.client">
+            <field name="name">瞎逼逼</field>
+            <field name="tag">chatting</field>
+        </record>
+
+    <menuitem id="girl_chatting"
+              name="美女陪聊"/>
+
+    <menuitem id="chatting"
+              name="瞎逼逼"
+              parent="girl_chatting"
+              action="action_chatting" />
+    </data>
+</odoo>

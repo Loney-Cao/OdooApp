@@ -1,0 +1,17 @@
+#char{
+        margin: 0 auto;
+        height:500px;
+        width: 800px;
+    }
+#contents{
+    height:500px;
+    width: 800px;
+    border:1px solid #cccccc;
+    border-radius:3px;
+    box-shadow: 2px 2px 5px #888888;
+    margin-bottom: 10px;
+}
+.input_send #msg{
+    height:20px;
+    width: 757px;
+}

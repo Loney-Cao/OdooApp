@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="assets_backend" name="search_what_you_want_assets" inherit_id="web.assets_backend">
+            <xpath expr="//link[last()]" position="after">
+                <!--<link rel="stylesheet" href="/search_what_you_want/static/lib/data_tables/media/css/jquery.dataTables_themeroller.css"/>-->
+                <link rel="stylesheet" href="/cs_search_what_you_want/static/lib/select2/css/select2.min.css"/>
+                <link rel="stylesheet" href="/cs_search_what_you_want/static/lib/data_tables/media/css/jquery.dataTables.css"/>
+                <link rel="stylesheet" href="/cs_search_what_you_want/static/src/css/search_view.css"/>
+                <!--<link rel="stylesheet" href="/search_what_you_want/static/lib/data_tables/media/css/dataTables.bootstrap4.css"/>-->
+                <!--<link rel="stylesheet" href="/search_what_you_want/static/lib/data_tables/media/css/dataTables.foundation.css"/>-->
+                <!--<link rel="stylesheet" href="/search_what_you_want/static/lib/data_tables/media/css/dataTables.jqueryui.css"/>-->
+                <!--<link rel="stylesheet" href="/search_what_you_want/static/lib/data_tables/media/css/dataTables.material.css"/>-->
+                <!--<link rel="stylesheet" href="/search_what_you_want/static/lib/data_tables/media/css/dataTables.semanticui.css"/>-->
+                <!--<link rel="stylesheet" href="/search_what_you_want/static/lib/data_tables/media/css/dataTables.uikit.css"/>-->
+            </xpath>
+
+            <xpath expr="//script[last()]" position="after">
+                <!--<script type="text/javascript" src="/web/static/lib/jquery/jquery.js"/>-->
+                <script type="text/javascript" src="/cs_search_what_you_want/static/lib/select2/js/select2.min.js"/>
+                <script type="text/javascript" src="/cs_search_what_you_want/static/lib/select2/js/i18n/zh-CN.js"/>
+                <script type="text/javascript" src="/cs_search_what_you_want/static/lib/data_tables/media/js/jquery.dataTables.js"/>
+                <script type="text/javascript" src="/cs_search_what_you_want/static/src/js/search_widget.js"/>
+                <!--<script type="text/javascript" src="/search_what_you_want/static/lib/data_tables/media/js/dataTables.bootstrap4.js"/>-->
+                <!--<script type="text/javascript" src="/search_what_you_want/static/lib/data_tables/media/js/dataTables.foundation.js"/>-->
+                <!--<script type="text/javascript" src="/search_what_you_want/static/lib/data_tables/media/js/dataTables.jqueryui.js"/>-->
+                <!--<script type="text/javascript" src="/search_what_you_want/static/lib/data_tables/media/js/dataTables.material.js"/>-->
+                <!--<script type="text/javascript" src="/search_what_you_want/static/lib/data_tables/media/js/dataTables.semanticui.js"/>-->
+                <!--<script type="text/javascript" src="/search_what_you_want/static/lib/data_tables/media/js/dataTables.uikit.js"/>-->
+            </xpath>
+    </template>
+    </data>
+</odoo>

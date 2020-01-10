@@ -1,0 +1,35 @@
+.search_grid {
+    margin: 5px 5px;
+}
+
+.search_head {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    border: solid 1px ;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+
+.select_model {
+    margin: auto 30%;
+    float: left;
+}
+.confirm_search {
+    margin: auto -25%;
+    float: left;
+}
+
+.search_body {
+    margin-top: 20px;
+    right: 10px;
+    border: solid 1px ;
+    border-radius: 25px;
+    padding: 10px 10px;
+    overflow-x: scroll;
+}
+
+#table_search_result {
+    width: 1317px;
+}
