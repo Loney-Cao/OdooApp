@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- 配置向导界面 -->
+    <record id="export_xml_wizard" model="ir.ui.view">
+        <field name="name">export_xml_wizard</field>
+        <field name="model">export.xml.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Export Xml Config">
+                <group name="group_top">
+                   <group name="group_left">
+                       <field name="file_name"/>
+                       <field name="noupdate"/>
+                   </group>
+                   <group name="group_right">
+                       <field name="model" invisible="1"/>
+                       <field name="field_ids" widget="many2many_tags" domain="[('model_id.model', '=', model)]"/>
+                   </group>
+               </group>
+                <footer>
+                    <button string="Download" name="download_file" type="object" class="oe_highlight"/>
+                    <button string="Cancel" class="btn btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <!-- 配置服务器动作 -->
+    <record id="action_server_export_xml_config" model="ir.actions.server">
+            <field name="name">Export Xml Config</field>
+            <field name="type">ir.actions.server</field>
+            <field name="model_id" ref="cs_export_xml.model_export_xml_wizard"/>
+            <field name="binding_model_id" ref="cs_export_xml.model_export_xml_wizard"/>
+            <field name="state">code</field>
+            <field name="code">
+                action = env['export.xml.wizard'].open_export_xml_wizard()
+            </field>
+    </record>
+
+    <!-- 立即导出xml -->
+    <record id="action_server_export_xml_now" model="ir.actions.server">
+            <field name="name">Export Xml Now</field>
+            <field name="type">ir.actions.server</field>
+            <field name="model_id" ref="cs_export_xml.model_export_xml_wizard"/>
+            <field name="binding_model_id" ref="cs_export_xml.model_export_xml_wizard"/>
+            <field name="state">code</field>
+            <field name="code">
+                env['export.xml.wizard'].download_file()
+            </field>
+    </record>
+
+</odoo>

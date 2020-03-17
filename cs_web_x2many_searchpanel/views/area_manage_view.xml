@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_area_manage_form" model="ir.ui.view">
+            <field name="name">area.manage.form</field>
+            <field name="model">area.manage</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="position"/>
+                        </group>
+                        <notebook>
+                            <page string="Area Lines">
+                                <field name="area_line"/>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_area_manage_tree" model="ir.ui.view">
+            <field name="name">area.manage.tree</field>
+            <field name="model">area.manage</field>
+            <field name="arch" type="xml">
+                <tree string="Area Manage">
+                    <field name="name"/>
+                    <field name="position"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_area_tree" model="ir.ui.view">
+            <field name="name">area.tree</field>
+            <field name="model">area</field>
+            <field name="arch" type="xml">
+                <tree string="Area">
+                    <field name="name"/>
+                    <field name="code"/>
+                    <field name="people_number"/>
+                    <field name="parent_id"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_area_form" model="ir.ui.view">
+            <field name="name">area.form</field>
+            <field name="model">area</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="code"/>
+                            <field name="people_number"/>
+                        </group>
+                        <group>
+                            <field name="manage_id"/>
+                            <field name="parent_id"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="area_view_search" model="ir.ui.view">
+            <field name="name">area.search</field>
+            <field name="model">area</field>
+            <field name="arch" type="xml">
+                <search string="Area">
+                    <searchpanel>
+                        <field name="parent_id" icon="fa-building"/>
+                    </searchpanel>
+                </search>
+             </field>
+        </record>
+
+        <act_window
+            id="action_area_manage"
+            name="Area Manage"
+            res_model="area.manage"/>
+
+        <act_window
+            id="action_area"
+            name="Area"
+            res_model="area"/>
+
+        <menuitem id="area_manage_main_menu"
+                  name="区域管理"/>
+
+        <menuitem id="area_manage_menu"
+                  name="区域管理"
+                  parent="area_manage_main_menu"
+                  action="action_area_manage" />
+
+        <menuitem id="area_menu"
+                  name="区域"
+                  parent="area_manage_main_menu"
+                  action="action_area" />
+
+    </data>
+</odoo>

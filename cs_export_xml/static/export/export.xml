@@ -1,0 +1,904 @@
+<?xml version="1.0" ?>
+	<odoo>
+		<data noupdate="0">
+			<record id="sale_order_line_4" model="sale.order.line">
+				<field name="id">4</field>
+				<field name="order_id" ref="sale.sale_order_2"></field>
+				<field name="name">Virtual Interior Design</field>
+				<field name="sequence">10</field>
+				<field name="invoice_lines">[6, 0, False]</field>
+				<field name="invoice_status">no</field>
+				<field name="price_unit">75.0</field>
+				<field name="price_subtotal">1800.0</field>
+				<field name="price_tax">0.0</field>
+				<field name="price_total">1800.0</field>
+				<field name="price_reduce">75.0</field>
+				<field name="tax_id">[6, 0, False]</field>
+				<field name="price_reduce_taxinc">75.0</field>
+				<field name="price_reduce_taxexcl">75.0</field>
+				<field name="discount">0.0</field>
+				<field name="product_id" ref="product.product_product_1"></field>
+				<field name="product_template_id" ref="product.product_product_1_product_template"></field>
+				<field name="product_updatable">True</field>
+				<field name="product_uom_qty">24.0</field>
+				<field name="product_uom" ref="uom.product_uom_hour"></field>
+				<field name="product_uom_category_id" ref="uom.uom_categ_wtime"></field>
+				<field name="product_no_variant_attribute_value_ids">[6, 0, False]</field>
+				<field name="qty_delivered_method">manual</field>
+				<field name="qty_delivered">0.0</field>
+				<field name="qty_delivered_manual">0.0</field>
+				<field name="qty_to_invoice">0.0</field>
+				<field name="qty_invoiced">0.0</field>
+				<field name="untaxed_amount_invoiced">0.0</field>
+				<field name="untaxed_amount_to_invoice">0.0</field>
+				<field name="salesman_id" ref="base.user_admin"></field>
+				<field name="currency_id" ref="base.CNY"></field>
+				<field name="company_id" ref="base.main_company"></field>
+				<field name="order_partner_id" ref="base.res_partner_4"></field>
+				<field name="analytic_tag_ids">[6, 0, False]</field>
+				<field name="is_expense">False</field>
+				<field name="is_downpayment">False</field>
+				<field name="state">sale</field>
+				<field name="customer_lead">0.0</field>
+				<field name="display_type">False</field>
+				<field name="display_name">S00002 - Virtual Interior Design</field>
+				<field name="create_uid" ref="base.user_root"></field>
+				<field name="create_date">2020-03-05 14:25:22.715372</field>
+				<field name="write_uid" ref="base.user_admin"></field>
+				<field name="write_date">2020-03-05 15:12:40.548848</field>
+				<field name="__last_update">2020-03-05 15:12:40.548848</field>
+			</record>
+			<record id="sale_order_line_5" model="sale.order.line">
+				<field name="id">5</field>
+				<field name="order_id" ref="sale.sale_order_2"></field>
+				<field name="name">Virtual Home Staging</field>
+				<field name="sequence">10</field>
+				<field name="invoice_lines">[6, 0, False]</field>
+				<field name="invoice_status">no</field>
+				<field name="price_unit">38.25</field>
+				<field name="price_subtotal">1147.5</field>
+				<field name="price_tax">0.0</field>
+				<field name="price_total">1147.5</field>
+				<field name="price_reduce">38.25</field>
+				<field name="tax_id">[6, 0, False]</field>
+				<field name="price_reduce_taxinc">38.25</field>
+				<field name="price_reduce_taxexcl">38.25</field>
+				<field name="discount">0.0</field>
+				<field name="product_id" ref="product.product_product_2"></field>
+				<field name="product_template_id" ref="product.product_product_2_product_template"></field>
+				<field name="product_updatable">True</field>
+				<field name="product_uom_qty">30.0</field>
+				<field name="product_uom" ref="uom.product_uom_hour"></field>
+				<field name="product_uom_category_id" ref="uom.uom_categ_wtime"></field>
+				<field name="product_no_variant_attribute_value_ids">[6, 0, False]</field>
+				<field name="qty_delivered_method">manual</field>
+				<field name="qty_delivered">0.0</field>
+				<field name="qty_delivered_manual">0.0</field>
+				<field name="qty_to_invoice">0.0</field>
+				<field name="qty_invoiced">0.0</field>
+				<field name="untaxed_amount_invoiced">0.0</field>
+				<field name="untaxed_amount_to_invoice">0.0</field>
+				<field name="salesman_id" ref="base.user_admin"></field>
+				<field name="currency_id" ref="base.CNY"></field>
+				<field name="company_id" ref="base.main_company"></field>
+				<field name="order_partner_id" ref="base.res_partner_4"></field>
+				<field name="analytic_tag_ids">[6, 0, False]</field>
+				<field name="is_expense">False</field>
+				<field name="is_downpayment">False</field>
+				<field name="state">sale</field>
+				<field name="customer_lead">0.0</field>
+				<field name="display_type">False</field>
+				<field name="display_name">S00002 - Virtual Home Staging</field>
+				<field name="create_uid" ref="base.user_root"></field>
+				<field name="create_date">2020-03-05 14:25:22.715372</field>
+				<field name="write_uid" ref="base.user_admin"></field>
+				<field name="write_date">2020-03-05 15:12:40.548848</field>
+				<field name="__last_update">2020-03-05 15:12:40.548848</field>
+			</record>
+			<record id="mail_followers_87" model="mail.followers">
+				<field name="id">87</field>
+				<field name="res_model">sale.order</field>
+				<field name="res_id">2</field>
+				<field name="partner_id" ref="base.partner_root"></field>
+				<field name="channel_id">False</field>
+				<field eval="[(6, 0, 'ref(mail.mt_comment)')]" name="subtype_ids"></field>
+				<field name="display_name">OdooBot</field>
+				<field name="__last_update">2020-03-08 13:16:58</field>
+			</record>
+			<record id="mail_followers_88" model="mail.followers">
+				<field name="id">88</field>
+				<field name="res_model">sale.order</field>
+				<field name="res_id">2</field>
+				<field name="partner_id" ref="base.partner_admin"></field>
+				<field name="channel_id">False</field>
+				<field eval="[(6, 0, 'ref(mail.mt_comment)')]" name="subtype_ids"></field>
+				<field name="display_name">YourCompany, Mitchell Admin</field>
+				<field name="__last_update">2020-03-08 13:16:58</field>
+			</record>
+			<record id="mail_followers_151" model="mail.followers">
+				<field name="id">151</field>
+				<field name="res_model">sale.order</field>
+				<field name="res_id">2</field>
+				<field name="partner_id" ref="base.res_partner_4"></field>
+				<field name="channel_id">False</field>
+				<field eval="[(6, 0, 'ref(mail.mt_comment)')]" name="subtype_ids"></field>
+				<field name="display_name">Ready Mat</field>
+				<field name="__last_update">2020-03-08 13:16:58</field>
+			</record>
+			<record id="mail_tracking_value_16" model="mail.tracking.value">
+				<field name="id">16</field>
+				<field name="field">state</field>
+				<field name="field_desc">状态</field>
+				<field name="field_type">selection</field>
+				<field name="field_groups">False</field>
+				<field name="old_value_integer">0</field>
+				<field name="old_value_float">0.0</field>
+				<field name="old_value_monetary">0.0</field>
+				<field name="old_value_char">报价单</field>
+				<field name="old_value_text">False</field>
+				<field name="old_value_datetime">False</field>
+				<field name="new_value_integer">0</field>
+				<field name="new_value_float">0.0</field>
+				<field name="new_value_monetary">0.0</field>
+				<field name="new_value_char">销售订单</field>
+				<field name="new_value_text">False</field>
+				<field name="new_value_datetime">False</field>
+				<field name="mail_message_id" ref=""></field>
+				<field name="tracking_sequence">3</field>
+				<field name="display_name">state</field>
+				<field name="create_uid" ref="base.user_admin"></field>
+				<field name="create_date">2020-03-05 15:12:40.548848</field>
+				<field name="write_uid" ref="base.user_admin"></field>
+				<field name="write_date">2020-03-05 15:12:40.548848</field>
+				<field name="__last_update">2020-03-05 15:12:40.548848</field>
+			</record>
+			<record id="mail_message_157" model="mail.message">
+				<field name="id">157</field>
+				<field name="subject">False</field>
+				<field name="date">2020-03-05 23:21:55</field>
+				<field name="body"></field>
+				<field name="attachment_ids">[6, 0, False]</field>
+				<field name="parent_id" ref=""></field>
+				<field name="model">sale.order</field>
+				<field name="res_id">2</field>
+				<field name="record_name">S00002</field>
+				<field name="subtype_id" ref="sale.mt_order_confirmed"></field>
+				<field name="mail_activity_type_id">False</field>
+				<field name="email_from">&quot;Mitchell Admin&quot; &lt;admin@yourcompany.example.com&gt;</field>
+				<field name="author_id" ref="base.partner_admin"></field>
+				<field name="author_avatar">b'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'</field>
+				<field name="partner_ids">[6, 0, False]</field>
+				<field name="notified_partner_ids">[6, 0, False]</field>
+				<field name="needaction">False</field>
+				<field name="has_error">False</field>
+				<field name="channel_ids">[6, 0, False]</field>
+				<field name="starred_partner_ids">[6, 0, False]</field>
+				<field name="starred">False</field>
+				<field name="no_auto_thread">False</field>
+				<field name="message_id">&lt;292185969234486.1583421715.875708580017090-openerp-2-sale.order@DESKTOP-A7BTR07&gt;</field>
+				<field name="reply_to">&quot;Mitchell Admin&quot; &lt;admin@yourcompany.example.com&gt;</field>
+				<field name="mail_server_id">False</field>
+				<field name="moderation_status">False</field>
+				<field name="moderator_id">False</field>
+				<field name="need_moderation">False</field>
+				<field name="email_layout_xmlid">False</field>
+				<field name="add_sign">True</field>
+				<field name="snailmail_error">False</field>
+				<field name="snailmail_status"></field>
+				<field name="message_type">notification</field>
+				<field name="has_sms_error">False</field>
+				<field name="display_name">S00002</field>
+				<field name="create_uid" ref="base.user_admin"></field>
+				<field name="create_date">2020-03-05 15:12:40.548848</field>
+				<field name="write_uid" ref="base.user_admin"></field>
+				<field name="write_date">2020-03-05 15:12:40.548848</field>
+				<field name="__last_update">2020-03-05 15:12:40.548848</field>
+			</record>
+			<record id="mail_message_149" model="mail.message">
+				<field name="id">149</field>
+				<field name="subject">False</field>
+				<field name="date">2020-03-05 14:25:28</field>
+				<field name="body">&lt;p&gt;Alright, thanks for the clarification. I will confirm the order as soon as I get my manager's approval.&lt;/p&gt;</field>
+				<field name="attachment_ids">[6, 0, False]</field>
+				<field name="parent_id" ref="sale.message_sale_2"></field>
+				<field name="model">sale.order</field>
+				<field name="res_id">2</field>
+				<field name="record_name">S00002</field>
+				<field name="subtype_id">False</field>
+				<field name="mail_activity_type_id">False</field>
+				<field name="email_from">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="author_id" ref="base.partner_demo"></field>
+				<field name="author_avatar">b'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'</field>
+				<field name="partner_ids">[6, 0, False]</field>
+				<field name="notified_partner_ids">[6, 0, False]</field>
+				<field name="needaction">False</field>
+				<field name="has_error">False</field>
+				<field name="channel_ids">[6, 0, False]</field>
+				<field name="starred_partner_ids">[6, 0, False]</field>
+				<field name="starred">False</field>
+				<field name="no_auto_thread">False</field>
+				<field name="message_id">&lt;921045447932502.1583418328.430843353271484-openerp-2-sale.order@DESKTOP-A7BTR07&gt;</field>
+				<field name="reply_to">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="mail_server_id">False</field>
+				<field name="moderation_status">False</field>
+				<field name="moderator_id">False</field>
+				<field name="need_moderation">False</field>
+				<field name="email_layout_xmlid">False</field>
+				<field name="add_sign">True</field>
+				<field name="snailmail_error">False</field>
+				<field name="snailmail_status"></field>
+				<field name="message_type">comment</field>
+				<field name="has_sms_error">False</field>
+				<field name="display_name">S00002</field>
+				<field name="create_uid" ref="base.user_root"></field>
+				<field name="create_date">2020-03-05 14:25:22.715372</field>
+				<field name="write_uid" ref="base.user_root"></field>
+				<field name="write_date">2020-03-05 14:25:22.715372</field>
+				<field name="__last_update">2020-03-05 14:25:22.715372</field>
+			</record>
+			<record id="mail_message_149" model="mail.message">
+				<field name="id">149</field>
+				<field name="subject">False</field>
+				<field name="date">2020-03-05 14:25:28</field>
+				<field name="body">&lt;p&gt;Alright, thanks for the clarification. I will confirm the order as soon as I get my manager's approval.&lt;/p&gt;</field>
+				<field name="attachment_ids">[6, 0, False]</field>
+				<field name="parent_id" ref="sale.message_sale_2"></field>
+				<field name="model">sale.order</field>
+				<field name="res_id">2</field>
+				<field name="record_name">S00002</field>
+				<field name="subtype_id">False</field>
+				<field name="mail_activity_type_id">False</field>
+				<field name="email_from">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="author_id" ref="base.partner_demo"></field>
+				<field name="author_avatar">b'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'</field>
+				<field name="partner_ids">[6, 0, False]</field>
+				<field name="notified_partner_ids">[6, 0, False]</field>
+				<field name="needaction">False</field>
+				<field name="has_error">False</field>
+				<field name="channel_ids">[6, 0, False]</field>
+				<field name="starred_partner_ids">[6, 0, False]</field>
+				<field name="starred">False</field>
+				<field name="no_auto_thread">False</field>
+				<field name="message_id">&lt;921045447932502.1583418328.430843353271484-openerp-2-sale.order@DESKTOP-A7BTR07&gt;</field>
+				<field name="reply_to">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="mail_server_id">False</field>
+				<field name="moderation_status">False</field>
+				<field name="moderator_id">False</field>
+				<field name="need_moderation">False</field>
+				<field name="email_layout_xmlid">False</field>
+				<field name="add_sign">True</field>
+				<field name="snailmail_error">False</field>
+				<field name="snailmail_status"></field>
+				<field name="message_type">comment</field>
+				<field name="has_sms_error">False</field>
+				<field name="display_name">S00002</field>
+				<field name="create_uid" ref="base.user_root"></field>
+				<field name="create_date">2020-03-05 14:25:22.715372</field>
+				<field name="write_uid" ref="base.user_root"></field>
+				<field name="write_date">2020-03-05 14:25:22.715372</field>
+				<field name="__last_update">2020-03-05 14:25:22.715372</field>
+			</record>
+			<record id="mail_message_148" model="mail.message">
+				<field name="id">148</field>
+				<field name="subject">False</field>
+				<field name="date">2020-03-05 14:25:28</field>
+				<field name="body">&lt;p&gt;Hello,
+Unfortunately that was a temporary discount that is not available anymore.
+Do you still plan to confirm the order based on the quoted prices?
+Thanks!&lt;/p&gt;</field>
+				<field name="attachment_ids">[6, 0, False]</field>
+				<field name="parent_id" ref="sale.message_sale_1"></field>
+				<field name="model">sale.order</field>
+				<field name="res_id">2</field>
+				<field name="record_name">S00002</field>
+				<field name="subtype_id">False</field>
+				<field name="mail_activity_type_id">False</field>
+				<field name="email_from">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="author_id" ref="base.partner_root"></field>
+				<field name="author_avatar">b'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'</field>
+				<field name="partner_ids">[6, 0, False]</field>
+				<field name="notified_partner_ids">[6, 0, False]</field>
+				<field name="needaction">False</field>
+				<field name="has_error">False</field>
+				<field name="channel_ids">[6, 0, False]</field>
+				<field name="starred_partner_ids">[6, 0, False]</field>
+				<field name="starred">False</field>
+				<field name="no_auto_thread">False</field>
+				<field name="message_id">&lt;448515936611547.1583418328.426843166351318-openerp-2-sale.order@DESKTOP-A7BTR07&gt;</field>
+				<field name="reply_to">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="mail_server_id">False</field>
+				<field name="moderation_status">False</field>
+				<field name="moderator_id">False</field>
+				<field name="need_moderation">False</field>
+				<field name="email_layout_xmlid">False</field>
+				<field name="add_sign">True</field>
+				<field name="snailmail_error">False</field>
+				<field name="snailmail_status"></field>
+				<field name="message_type">comment</field>
+				<field name="has_sms_error">False</field>
+				<field name="display_name">S00002</field>
+				<field name="create_uid" ref="base.user_root"></field>
+				<field name="create_date">2020-03-05 14:25:22.715372</field>
+				<field name="write_uid" ref="base.user_root"></field>
+				<field name="write_date">2020-03-05 14:25:22.715372</field>
+				<field name="__last_update">2020-03-05 14:25:22.715372</field>
+			</record>
+			<record id="mail_message_149" model="mail.message">
+				<field name="id">149</field>
+				<field name="subject">False</field>
+				<field name="date">2020-03-05 14:25:28</field>
+				<field name="body">&lt;p&gt;Alright, thanks for the clarification. I will confirm the order as soon as I get my manager's approval.&lt;/p&gt;</field>
+				<field name="attachment_ids">[6, 0, False]</field>
+				<field name="parent_id" ref="sale.message_sale_2"></field>
+				<field name="model">sale.order</field>
+				<field name="res_id">2</field>
+				<field name="record_name">S00002</field>
+				<field name="subtype_id">False</field>
+				<field name="mail_activity_type_id">False</field>
+				<field name="email_from">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="author_id" ref="base.partner_demo"></field>
+				<field name="author_avatar">b'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'</field>
+				<field name="partner_ids">[6, 0, False]</field>
+				<field name="notified_partner_ids">[6, 0, False]</field>
+				<field name="needaction">False</field>
+				<field name="has_error">False</field>
+				<field name="channel_ids">[6, 0, False]</field>
+				<field name="starred_partner_ids">[6, 0, False]</field>
+				<field name="starred">False</field>
+				<field name="no_auto_thread">False</field>
+				<field name="message_id">&lt;921045447932502.1583418328.430843353271484-openerp-2-sale.order@DESKTOP-A7BTR07&gt;</field>
+				<field name="reply_to">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="mail_server_id">False</field>
+				<field name="moderation_status">False</field>
+				<field name="moderator_id">False</field>
+				<field name="need_moderation">False</field>
+				<field name="email_layout_xmlid">False</field>
+				<field name="add_sign">True</field>
+				<field name="snailmail_error">False</field>
+				<field name="snailmail_status"></field>
+				<field name="message_type">comment</field>
+				<field name="has_sms_error">False</field>
+				<field name="display_name">S00002</field>
+				<field name="create_uid" ref="base.user_root"></field>
+				<field name="create_date">2020-03-05 14:25:22.715372</field>
+				<field name="write_uid" ref="base.user_root"></field>
+				<field name="write_date">2020-03-05 14:25:22.715372</field>
+				<field name="__last_update">2020-03-05 14:25:22.715372</field>
+			</record>
+			<record id="mail_message_148" model="mail.message">
+				<field name="id">148</field>
+				<field name="subject">False</field>
+				<field name="date">2020-03-05 14:25:28</field>
+				<field name="body">&lt;p&gt;Hello,
+Unfortunately that was a temporary discount that is not available anymore.
+Do you still plan to confirm the order based on the quoted prices?
+Thanks!&lt;/p&gt;</field>
+				<field name="attachment_ids">[6, 0, False]</field>
+				<field name="parent_id" ref="sale.message_sale_1"></field>
+				<field name="model">sale.order</field>
+				<field name="res_id">2</field>
+				<field name="record_name">S00002</field>
+				<field name="subtype_id">False</field>
+				<field name="mail_activity_type_id">False</field>
+				<field name="email_from">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="author_id" ref="base.partner_root"></field>
+				<field name="author_avatar">b'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'</field>
+				<field name="partner_ids">[6, 0, False]</field>
+				<field name="notified_partner_ids">[6, 0, False]</field>
+				<field name="needaction">False</field>
+				<field name="has_error">False</field>
+				<field name="channel_ids">[6, 0, False]</field>
+				<field name="starred_partner_ids">[6, 0, False]</field>
+				<field name="starred">False</field>
+				<field name="no_auto_thread">False</field>
+				<field name="message_id">&lt;448515936611547.1583418328.426843166351318-openerp-2-sale.order@DESKTOP-A7BTR07&gt;</field>
+				<field name="reply_to">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="mail_server_id">False</field>
+				<field name="moderation_status">False</field>
+				<field name="moderator_id">False</field>
+				<field name="need_moderation">False</field>
+				<field name="email_layout_xmlid">False</field>
+				<field name="add_sign">True</field>
+				<field name="snailmail_error">False</field>
+				<field name="snailmail_status"></field>
+				<field name="message_type">comment</field>
+				<field name="has_sms_error">False</field>
+				<field name="display_name">S00002</field>
+				<field name="create_uid" ref="base.user_root"></field>
+				<field name="create_date">2020-03-05 14:25:22.715372</field>
+				<field name="write_uid" ref="base.user_root"></field>
+				<field name="write_date">2020-03-05 14:25:22.715372</field>
+				<field name="__last_update">2020-03-05 14:25:22.715372</field>
+			</record>
+			<record id="mail_message_147" model="mail.message">
+				<field name="id">147</field>
+				<field name="subject">False</field>
+				<field name="date">2020-03-05 14:25:28</field>
+				<field name="body">&lt;p&gt;Hi,
+I have a question regarding services pricing: I heard of a possible discount for quantities exceeding 25 hours.
+Could you confirm, please?&lt;/p&gt;</field>
+				<field name="attachment_ids">[6, 0, False]</field>
+				<field name="parent_id">False</field>
+				<field name="model">sale.order</field>
+				<field name="res_id">2</field>
+				<field name="record_name">S00002</field>
+				<field name="subtype_id">False</field>
+				<field name="mail_activity_type_id">False</field>
+				<field name="email_from">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="author_id" ref="base.partner_demo"></field>
+				<field name="author_avatar">b'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'</field>
+				<field name="partner_ids">[6, 0, False]</field>
+				<field name="notified_partner_ids">[6, 0, False]</field>
+				<field name="needaction">False</field>
+				<field name="has_error">False</field>
+				<field name="channel_ids">[6, 0, False]</field>
+				<field name="starred_partner_ids">[6, 0, False]</field>
+				<field name="starred">False</field>
+				<field name="no_auto_thread">False</field>
+				<field name="message_id">&lt;262765378613870.1583418328.423842906951904-openerp-2-sale.order@DESKTOP-A7BTR07&gt;</field>
+				<field name="reply_to">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="mail_server_id">False</field>
+				<field name="moderation_status">False</field>
+				<field name="moderator_id">False</field>
+				<field name="need_moderation">False</field>
+				<field name="email_layout_xmlid">False</field>
+				<field name="add_sign">True</field>
+				<field name="snailmail_error">False</field>
+				<field name="snailmail_status"></field>
+				<field name="message_type">comment</field>
+				<field name="has_sms_error">False</field>
+				<field name="display_name">S00002</field>
+				<field name="create_uid" ref="base.user_root"></field>
+				<field name="create_date">2020-03-05 14:25:22.715372</field>
+				<field name="write_uid" ref="base.user_root"></field>
+				<field name="write_date">2020-03-05 14:25:22.715372</field>
+				<field name="__last_update">2020-03-05 14:25:22.715372</field>
+			</record>
+			<record id="mail_tracking_value_16" model="mail.tracking.value">
+				<field name="id">16</field>
+				<field name="field">state</field>
+				<field name="field_desc">状态</field>
+				<field name="field_type">selection</field>
+				<field name="field_groups">False</field>
+				<field name="old_value_integer">0</field>
+				<field name="old_value_float">0.0</field>
+				<field name="old_value_monetary">0.0</field>
+				<field name="old_value_char">报价单</field>
+				<field name="old_value_text">False</field>
+				<field name="old_value_datetime">False</field>
+				<field name="new_value_integer">0</field>
+				<field name="new_value_float">0.0</field>
+				<field name="new_value_monetary">0.0</field>
+				<field name="new_value_char">销售订单</field>
+				<field name="new_value_text">False</field>
+				<field name="new_value_datetime">False</field>
+				<field name="mail_message_id" ref=""></field>
+				<field name="tracking_sequence">3</field>
+				<field name="display_name">state</field>
+				<field name="create_uid" ref="base.user_admin"></field>
+				<field name="create_date">2020-03-05 15:12:40.548848</field>
+				<field name="write_uid" ref="base.user_admin"></field>
+				<field name="write_date">2020-03-05 15:12:40.548848</field>
+				<field name="__last_update">2020-03-05 15:12:40.548848</field>
+			</record>
+			<record id="mail_message_157" model="mail.message">
+				<field name="id">157</field>
+				<field name="subject">False</field>
+				<field name="date">2020-03-05 23:21:55</field>
+				<field name="body"></field>
+				<field name="attachment_ids">[6, 0, False]</field>
+				<field name="parent_id" ref=""></field>
+				<field name="model">sale.order</field>
+				<field name="res_id">2</field>
+				<field name="record_name">S00002</field>
+				<field name="subtype_id" ref="sale.mt_order_confirmed"></field>
+				<field name="mail_activity_type_id">False</field>
+				<field name="email_from">&quot;Mitchell Admin&quot; &lt;admin@yourcompany.example.com&gt;</field>
+				<field name="author_id" ref="base.partner_admin"></field>
+				<field name="author_avatar">b'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'</field>
+				<field name="partner_ids">[6, 0, False]</field>
+				<field name="notified_partner_ids">[6, 0, False]</field>
+				<field name="needaction">False</field>
+				<field name="has_error">False</field>
+				<field name="channel_ids">[6, 0, False]</field>
+				<field name="starred_partner_ids">[6, 0, False]</field>
+				<field name="starred">False</field>
+				<field name="no_auto_thread">False</field>
+				<field name="message_id">&lt;292185969234486.1583421715.875708580017090-openerp-2-sale.order@DESKTOP-A7BTR07&gt;</field>
+				<field name="reply_to">&quot;Mitchell Admin&quot; &lt;admin@yourcompany.example.com&gt;</field>
+				<field name="mail_server_id">False</field>
+				<field name="moderation_status">False</field>
+				<field name="moderator_id">False</field>
+				<field name="need_moderation">False</field>
+				<field name="email_layout_xmlid">False</field>
+				<field name="add_sign">True</field>
+				<field name="snailmail_error">False</field>
+				<field name="snailmail_status"></field>
+				<field name="message_type">notification</field>
+				<field name="has_sms_error">False</field>
+				<field name="display_name">S00002</field>
+				<field name="create_uid" ref="base.user_admin"></field>
+				<field name="create_date">2020-03-05 15:12:40.548848</field>
+				<field name="write_uid" ref="base.user_admin"></field>
+				<field name="write_date">2020-03-05 15:12:40.548848</field>
+				<field name="__last_update">2020-03-05 15:12:40.548848</field>
+			</record>
+			<record id="mail_message_116" model="mail.message">
+				<field name="id">116</field>
+				<field name="subject">False</field>
+				<field name="date">2020-03-05 14:25:27</field>
+				<field name="body">&lt;p&gt;Sales Order 创建&lt;/p&gt;</field>
+				<field name="attachment_ids">[6, 0, False]</field>
+				<field name="parent_id">False</field>
+				<field name="model">sale.order</field>
+				<field name="res_id">2</field>
+				<field name="record_name">False</field>
+				<field name="subtype_id" ref="mail.mt_note"></field>
+				<field name="mail_activity_type_id">False</field>
+				<field name="email_from">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="author_id" ref="base.partner_root"></field>
+				<field name="author_avatar">b'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'</field>
+				<field name="partner_ids">[6, 0, False]</field>
+				<field name="notified_partner_ids">[6, 0, False]</field>
+				<field name="needaction">False</field>
+				<field name="has_error">False</field>
+				<field name="channel_ids">[6, 0, False]</field>
+				<field name="starred_partner_ids">[6, 0, False]</field>
+				<field name="starred">False</field>
+				<field name="no_auto_thread">False</field>
+				<field name="message_id">&lt;935465636836176.1583418327.437109231948853-openerp-message-notify@DESKTOP-A7BTR07&gt;</field>
+				<field name="reply_to">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="mail_server_id">False</field>
+				<field name="moderation_status">False</field>
+				<field name="moderator_id">False</field>
+				<field name="need_moderation">False</field>
+				<field name="email_layout_xmlid">False</field>
+				<field name="add_sign">True</field>
+				<field name="snailmail_error">False</field>
+				<field name="snailmail_status"></field>
+				<field name="message_type">notification</field>
+				<field name="has_sms_error">False</field>
+				<field name="display_name">False</field>
+				<field name="create_uid" ref="base.user_root"></field>
+				<field name="create_date">2020-03-05 14:25:22.715372</field>
+				<field name="write_uid" ref="base.user_root"></field>
+				<field name="write_date">2020-03-05 14:25:22.715372</field>
+				<field name="__last_update">2020-03-05 14:25:22.715372</field>
+			</record>
+			<record id="mail_message_149" model="mail.message">
+				<field name="id">149</field>
+				<field name="subject">False</field>
+				<field name="date">2020-03-05 14:25:28</field>
+				<field name="body">&lt;p&gt;Alright, thanks for the clarification. I will confirm the order as soon as I get my manager's approval.&lt;/p&gt;</field>
+				<field name="attachment_ids">[6, 0, False]</field>
+				<field name="parent_id" ref="sale.message_sale_2"></field>
+				<field name="model">sale.order</field>
+				<field name="res_id">2</field>
+				<field name="record_name">S00002</field>
+				<field name="subtype_id">False</field>
+				<field name="mail_activity_type_id">False</field>
+				<field name="email_from">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="author_id" ref="base.partner_demo"></field>
+				<field name="author_avatar">b'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'</field>
+				<field name="partner_ids">[6, 0, False]</field>
+				<field name="notified_partner_ids">[6, 0, False]</field>
+				<field name="needaction">False</field>
+				<field name="has_error">False</field>
+				<field name="channel_ids">[6, 0, False]</field>
+				<field name="starred_partner_ids">[6, 0, False]</field>
+				<field name="starred">False</field>
+				<field name="no_auto_thread">False</field>
+				<field name="message_id">&lt;921045447932502.1583418328.430843353271484-openerp-2-sale.order@DESKTOP-A7BTR07&gt;</field>
+				<field name="reply_to">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="mail_server_id">False</field>
+				<field name="moderation_status">False</field>
+				<field name="moderator_id">False</field>
+				<field name="need_moderation">False</field>
+				<field name="email_layout_xmlid">False</field>
+				<field name="add_sign">True</field>
+				<field name="snailmail_error">False</field>
+				<field name="snailmail_status"></field>
+				<field name="message_type">comment</field>
+				<field name="has_sms_error">False</field>
+				<field name="display_name">S00002</field>
+				<field name="create_uid" ref="base.user_root"></field>
+				<field name="create_date">2020-03-05 14:25:22.715372</field>
+				<field name="write_uid" ref="base.user_root"></field>
+				<field name="write_date">2020-03-05 14:25:22.715372</field>
+				<field name="__last_update">2020-03-05 14:25:22.715372</field>
+			</record>
+			<record id="mail_message_149" model="mail.message">
+				<field name="id">149</field>
+				<field name="subject">False</field>
+				<field name="date">2020-03-05 14:25:28</field>
+				<field name="body">&lt;p&gt;Alright, thanks for the clarification. I will confirm the order as soon as I get my manager's approval.&lt;/p&gt;</field>
+				<field name="attachment_ids">[6, 0, False]</field>
+				<field name="parent_id" ref="sale.message_sale_2"></field>
+				<field name="model">sale.order</field>
+				<field name="res_id">2</field>
+				<field name="record_name">S00002</field>
+				<field name="subtype_id">False</field>
+				<field name="mail_activity_type_id">False</field>
+				<field name="email_from">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="author_id" ref="base.partner_demo"></field>
+				<field name="author_avatar">b'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'</field>
+				<field name="partner_ids">[6, 0, False]</field>
+				<field name="notified_partner_ids">[6, 0, False]</field>
+				<field name="needaction">False</field>
+				<field name="has_error">False</field>
+				<field name="channel_ids">[6, 0, False]</field>
+				<field name="starred_partner_ids">[6, 0, False]</field>
+				<field name="starred">False</field>
+				<field name="no_auto_thread">False</field>
+				<field name="message_id">&lt;921045447932502.1583418328.430843353271484-openerp-2-sale.order@DESKTOP-A7BTR07&gt;</field>
+				<field name="reply_to">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="mail_server_id">False</field>
+				<field name="moderation_status">False</field>
+				<field name="moderator_id">False</field>
+				<field name="need_moderation">False</field>
+				<field name="email_layout_xmlid">False</field>
+				<field name="add_sign">True</field>
+				<field name="snailmail_error">False</field>
+				<field name="snailmail_status"></field>
+				<field name="message_type">comment</field>
+				<field name="has_sms_error">False</field>
+				<field name="display_name">S00002</field>
+				<field name="create_uid" ref="base.user_root"></field>
+				<field name="create_date">2020-03-05 14:25:22.715372</field>
+				<field name="write_uid" ref="base.user_root"></field>
+				<field name="write_date">2020-03-05 14:25:22.715372</field>
+				<field name="__last_update">2020-03-05 14:25:22.715372</field>
+			</record>
+			<record id="mail_message_148" model="mail.message">
+				<field name="id">148</field>
+				<field name="subject">False</field>
+				<field name="date">2020-03-05 14:25:28</field>
+				<field name="body">&lt;p&gt;Hello,
+Unfortunately that was a temporary discount that is not available anymore.
+Do you still plan to confirm the order based on the quoted prices?
+Thanks!&lt;/p&gt;</field>
+				<field name="attachment_ids">[6, 0, False]</field>
+				<field name="parent_id" ref="sale.message_sale_1"></field>
+				<field name="model">sale.order</field>
+				<field name="res_id">2</field>
+				<field name="record_name">S00002</field>
+				<field name="subtype_id">False</field>
+				<field name="mail_activity_type_id">False</field>
+				<field name="email_from">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="author_id" ref="base.partner_root"></field>
+				<field name="author_avatar">b'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'</field>
+				<field name="partner_ids">[6, 0, False]</field>
+				<field name="notified_partner_ids">[6, 0, False]</field>
+				<field name="needaction">False</field>
+				<field name="has_error">False</field>
+				<field name="channel_ids">[6, 0, False]</field>
+				<field name="starred_partner_ids">[6, 0, False]</field>
+				<field name="starred">False</field>
+				<field name="no_auto_thread">False</field>
+				<field name="message_id">&lt;448515936611547.1583418328.426843166351318-openerp-2-sale.order@DESKTOP-A7BTR07&gt;</field>
+				<field name="reply_to">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="mail_server_id">False</field>
+				<field name="moderation_status">False</field>
+				<field name="moderator_id">False</field>
+				<field name="need_moderation">False</field>
+				<field name="email_layout_xmlid">False</field>
+				<field name="add_sign">True</field>
+				<field name="snailmail_error">False</field>
+				<field name="snailmail_status"></field>
+				<field name="message_type">comment</field>
+				<field name="has_sms_error">False</field>
+				<field name="display_name">S00002</field>
+				<field name="create_uid" ref="base.user_root"></field>
+				<field name="create_date">2020-03-05 14:25:22.715372</field>
+				<field name="write_uid" ref="base.user_root"></field>
+				<field name="write_date">2020-03-05 14:25:22.715372</field>
+				<field name="__last_update">2020-03-05 14:25:22.715372</field>
+			</record>
+			<record id="mail_message_149" model="mail.message">
+				<field name="id">149</field>
+				<field name="subject">False</field>
+				<field name="date">2020-03-05 14:25:28</field>
+				<field name="body">&lt;p&gt;Alright, thanks for the clarification. I will confirm the order as soon as I get my manager's approval.&lt;/p&gt;</field>
+				<field name="attachment_ids">[6, 0, False]</field>
+				<field name="parent_id" ref="sale.message_sale_2"></field>
+				<field name="model">sale.order</field>
+				<field name="res_id">2</field>
+				<field name="record_name">S00002</field>
+				<field name="subtype_id">False</field>
+				<field name="mail_activity_type_id">False</field>
+				<field name="email_from">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="author_id" ref="base.partner_demo"></field>
+				<field name="author_avatar">b'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'</field>
+				<field name="partner_ids">[6, 0, False]</field>
+				<field name="notified_partner_ids">[6, 0, False]</field>
+				<field name="needaction">False</field>
+				<field name="has_error">False</field>
+				<field name="channel_ids">[6, 0, False]</field>
+				<field name="starred_partner_ids">[6, 0, False]</field>
+				<field name="starred">False</field>
+				<field name="no_auto_thread">False</field>
+				<field name="message_id">&lt;921045447932502.1583418328.430843353271484-openerp-2-sale.order@DESKTOP-A7BTR07&gt;</field>
+				<field name="reply_to">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="mail_server_id">False</field>
+				<field name="moderation_status">False</field>
+				<field name="moderator_id">False</field>
+				<field name="need_moderation">False</field>
+				<field name="email_layout_xmlid">False</field>
+				<field name="add_sign">True</field>
+				<field name="snailmail_error">False</field>
+				<field name="snailmail_status"></field>
+				<field name="message_type">comment</field>
+				<field name="has_sms_error">False</field>
+				<field name="display_name">S00002</field>
+				<field name="create_uid" ref="base.user_root"></field>
+				<field name="create_date">2020-03-05 14:25:22.715372</field>
+				<field name="write_uid" ref="base.user_root"></field>
+				<field name="write_date">2020-03-05 14:25:22.715372</field>
+				<field name="__last_update">2020-03-05 14:25:22.715372</field>
+			</record>
+			<record id="mail_message_148" model="mail.message">
+				<field name="id">148</field>
+				<field name="subject">False</field>
+				<field name="date">2020-03-05 14:25:28</field>
+				<field name="body">&lt;p&gt;Hello,
+Unfortunately that was a temporary discount that is not available anymore.
+Do you still plan to confirm the order based on the quoted prices?
+Thanks!&lt;/p&gt;</field>
+				<field name="attachment_ids">[6, 0, False]</field>
+				<field name="parent_id" ref="sale.message_sale_1"></field>
+				<field name="model">sale.order</field>
+				<field name="res_id">2</field>
+				<field name="record_name">S00002</field>
+				<field name="subtype_id">False</field>
+				<field name="mail_activity_type_id">False</field>
+				<field name="email_from">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="author_id" ref="base.partner_root"></field>
+				<field name="author_avatar">b'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'</field>
+				<field name="partner_ids">[6, 0, False]</field>
+				<field name="notified_partner_ids">[6, 0, False]</field>
+				<field name="needaction">False</field>
+				<field name="has_error">False</field>
+				<field name="channel_ids">[6, 0, False]</field>
+				<field name="starred_partner_ids">[6, 0, False]</field>
+				<field name="starred">False</field>
+				<field name="no_auto_thread">False</field>
+				<field name="message_id">&lt;448515936611547.1583418328.426843166351318-openerp-2-sale.order@DESKTOP-A7BTR07&gt;</field>
+				<field name="reply_to">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="mail_server_id">False</field>
+				<field name="moderation_status">False</field>
+				<field name="moderator_id">False</field>
+				<field name="need_moderation">False</field>
+				<field name="email_layout_xmlid">False</field>
+				<field name="add_sign">True</field>
+				<field name="snailmail_error">False</field>
+				<field name="snailmail_status"></field>
+				<field name="message_type">comment</field>
+				<field name="has_sms_error">False</field>
+				<field name="display_name">S00002</field>
+				<field name="create_uid" ref="base.user_root"></field>
+				<field name="create_date">2020-03-05 14:25:22.715372</field>
+				<field name="write_uid" ref="base.user_root"></field>
+				<field name="write_date">2020-03-05 14:25:22.715372</field>
+				<field name="__last_update">2020-03-05 14:25:22.715372</field>
+			</record>
+			<record id="mail_message_147" model="mail.message">
+				<field name="id">147</field>
+				<field name="subject">False</field>
+				<field name="date">2020-03-05 14:25:28</field>
+				<field name="body">&lt;p&gt;Hi,
+I have a question regarding services pricing: I heard of a possible discount for quantities exceeding 25 hours.
+Could you confirm, please?&lt;/p&gt;</field>
+				<field name="attachment_ids">[6, 0, False]</field>
+				<field name="parent_id">False</field>
+				<field name="model">sale.order</field>
+				<field name="res_id">2</field>
+				<field name="record_name">S00002</field>
+				<field name="subtype_id">False</field>
+				<field name="mail_activity_type_id">False</field>
+				<field name="email_from">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="author_id" ref="base.partner_demo"></field>
+				<field name="author_avatar">b'/9j/4AAQSkZJRgABAQEASABIAAD/4gKgSUNDX1BST0ZJTEUAAQEAAAKQbGNtcwQwAABtbnRyUkdCIFhZWiAH3gAEABYAFwASACJhY3NwQVBQTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9tYAAQAAAADTLWxjbXMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtkZXNjAAABCAAAADhjcHJ0AAABQAAAAE53dHB0AAABkAAAABRjaGFkAAABpAAAACxyWFlaAAAB0AAAABRiWFlaAAAB5AAAABRnWFlaAAAB+AAAABRyVFJDAAACDAAAACBnVFJDAAACLAAAACBiVFJDAAACTAAAACBjaHJtAAACbAAAACRtbHVjAAAAAAAAAAEAAAAMZW5VUwAAABwAAAAcAHMAUgBHAEIAIABiAHUAaQBsAHQALQBpAG4AAG1sdWMAAAAAAAAAAQAAAAxlblVTAAAAMgAAABwATgBvACAAYwBvAHAAeQByAGkAZwBoAHQALAAgAHUAcwBlACAAZgByAGUAZQBsAHkAAAAAWFlaIAAAAAAAAPbWAAEAAAAA0y1zZjMyAAAAAAABDEoAAAXj///zKgAAB5sAAP2H///7ov///aMAAAPYAADAlFhZWiAAAAAAAABvlAAAOO4AAAOQWFlaIAAAAAAAACSdAAAPgwAAtr5YWVogAAAAAAAAYqUAALeQAAAY3nBhcmEAAAAAAAMAAAACZmYAAPKnAAANWQAAE9AAAApbcGFyYQAAAAAAAwAAAAJmZgAA8qcAAA1ZAAAT0AAACltwYXJhAAAAAAADAAAAAmZmAADypwAADVkAABPQAAAKW2Nocm0AAAAAAAMAAAAAo9cAAFR7AABMzQAAmZoAACZmAAAPXP/bAEMABQMEBAQDBQQEBAUFBQYHDAgHBwcHDwsLCQwRDxISEQ8RERMWHBcTFBoVEREYIRgaHR0fHx8TFyIkIh4kHB4fHv/bAEMBBQUFBwYHDggIDh4UERQeHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHv/AABEIAIAAgAMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAFBgQHAQIDCAD/xAA4EAACAQMDAgQEBAUDBQEAAAABAgMABBEFEiEGMRNBUWEHInGBIzKRwRQVQqHRUmKxJDNTZOGC/8QAGQEAAwEBAQAAAAAAAAAAAAAAAgMEAAUB/8QAIxEAAwACAgICAwEBAAAAAAAAAAECAxEEIRIxQVETIjIzUv/aAAwDAQACEQMRAD8ArO3uEcjjafSptwkUsGCMGs3umITmIbW9q4/i267JkyPWpW0/ZfK0gfdWmEAIzUG404Ou4AgijyMJiApBHpX08Q2kYodNHosWyNFKBICVzwaZd4TT84wPOo9nZmSXlCefSi19YPLYGOJNvuwwBTZfXYtr6BFu6PB4kZzgkMPMeld4BvYBRnJwMU19B9H6cZYzqmoNuPZYWKsR9CM1enT/AEl0HAmZdGs5J3UDdOmXOOxw3GayXkZvxPNp3xjCpk47V9E+0F3/AL16T1foHorUYDElnZ27f+e3kEUie4TJVvcce1Vj8QPhld6bBcXmhTjWLKNd0zRg+JCe53KO6kZ59sGl3GgptMRCI7i2YgZpN1q22uWA7GnOCErZgpzkDtQnUrVZUYkClx+rCr9kDtAk+TZnvziiFspE7oexoFaSm0utp7A0wIwaVJB501+wF6B1/bhtwIpYu4HhuRKmVKtkEeVWBcWysc471CvdKjeBsLk49KNXoCo8g/bSpz4vetLjwpMggFaiSSEMAw4ruqHGATQ1PYxMhyWJRvFtz9q5u8pbZIhBPnRqyRQ34nFQurbmCx0WaclRI3yRHPZj5/YV4tozewcdWtLJzCq/xEi53YPyJ65NdYeroZLpX2teTDOEjJMaffsfp/eq4vZvEENrbL4pbLHccqAO7EeZ5pk6R6M1TWEE80kkcJbC5/qHrjyoclTK22MxY6t6lbHC56v6qeykGj2dnAm355JZUDD3C54++aRptY6w1ByH1C5l+YgNDMOD7Y7VcHT/AMMrUxJ495esFOQFfao9sCn3pnoLRtPl8R7dJEkxkOoJ+tKXJWtSOfDe90eWpU6qd0F3LdMc5DtkOR67hjP3p9+HPWfU/R2ox3c01zLExCPHk5dT5j6d69EXuh6JKQX0uJwi4GY6Wuo+jtG1ePZDAbWeMbopI/l2kdqJZKr+jVxlK3LImqaRY6hqFtrllboun3qrMwSLaQ57jI4B8/Kq+61KXesXl1CIFR5DtWFNqADgbR6cVaXw+1M6msnS+tZChZEnjjOwsQCocEdjyCPeq06sslsdSuLNJJH2OQd+M8efFHS16Jp99lZ6spjnLY70X0uXxLWNqi9QQFVLY7Vx6dlZotrZ4NMXYPpjwkAe2VyPKubW7bcYzU3SCJLRd2OKkXEMaRF2b6DNDU7MmkLNurPKCOwojIu0KRUNXCKWX+1S4ZhLF25ovk2jtCN35qrz4m3Nxc67DptuGcQxAooHJdvP9MCn5GZSQDkUk9W26t1WxlbZ4lou05xkjORny7VnWja2DeitGnk1G3juCjG4OAq8kBfU/XFekOndLSG2jijTARcD61Wfw1sbZfx1Cl1OxTjsKtFOobDR4A84eeUHiKJcn6n0rlZm8uTv4O3xpWHF18jfpNntCkjg+ppntLSHw93iKMDyqj9V+KdxFOE07SJCh7u4Kqv6jFHOmOsb7WpUtgyiSTAAU8D1p8uMXxs8c1l72WvJHYGICZgeOecVGGn6bKWNtIN5HHzA1Uvxi17Wel1t7eaURmVdyOD+aqu0/rPVEYPd9VTQF3wsawMxPGQMj2qmcq+ZJsmPS6otbqGyk6d+JlhqGxkjvGEZDDgt/wDRSR1feGTqm+8aQsqylVLHuP2+lFNI6ruOqdDv9JvLt72W0i/jdNmcfOkkWGZR5/Mm770nfEK58XWpZ0QwvMiStk92I5P3INFKVeiPJuX2ctegiltiVweKXtDQLNIgHnReG436WfEbkd6GaLhr98dia0b3oXX2OOmEra4B7VF1mSVkCh8DHrXeFvDtyQaBa1dsX2L9KcuhTCCIrjGcV3RWiXA7VmCExjD/AK1lyT2+lBrYwjpK/jhSMc0s/E6KTbZ3SJkDMbsPLzH0pvCdjtqZY20ktwgVkMRDCSNwCrccZz9KXlrwnyH8bCs2RQ3oH/DEsdIGGLPkgjzotrQ1xJTFp6qjZG6VxuIHsO1CukpU03WtRgwvhG4EkW08bWHlj6GrPsJ7Ccb3TcWPb3rmZG/PaO1hj9PF/BV9h0Zr13dzz6xey6hEUIhzI3B3ZDFfyjjjHanXp7RP5TNbSwq0UqpktnAZvLjyp9toY3hVI41SPzHrQPrK8tdPlS4uH8OONGY4x2FbdVS2eRChNIl/GTRG6l6V0nUpE3mzP4gHkCNpPtSLF0HZTtBeOq/xCABH2kcAYHA448uKNX/xg0+LpcQKqTQFefmB3qeO4ol0hqdvfaUkqBthHyg9wKpzPeqlsTjn3LSN/hd8Nrew1+LVZbpESJuYieHzwQB9DVM/FSGW06xvNNOUNq5hUHzVWIU/cYqz+sdflsn22s8kbjttJ4pZ+NWgSQy6N1DcMXn1WAyMw/LgbSoz6jcc/Wnce149Ih5mPT3sSf5fc/yssmTx29aHaBvW8ZCDkd6d9KTdpoUjIxSwkPg664UU+a2ySp0tjPFE0lmcDJ9KWtSQfxH/AOqmJrUtlcGF1JRjwfMUP1e6WW5DjjcaN+hSDuoSSvEvhcmtbRpDH+KvNfQNIEwcEV0jmBG1hivExuiZaL4iEg0Q0d9tzLAW2eNGYwSOM/t581AtisYypxmtnb+oNgil5ZVy5GYMn4siv6J3U9rBBLZyQWwgVYxESBwQcEYI78g/rRHR3kFurow3AUs61rl49pb2bxRyJJOBvx8wOCR/xR3py5jktxIXXbwc+lcvLjrH0ztxnnI3Uj1otzIY1Bc81B61sbC70crdktIz8bW5HtUFdRNpG7LwyjI58z7UrX/UOoLKY7Wzmu5H7M3/AGxnzJ/YUEd+z12/LogaroH8QngC3Xb4e5XCYbIPbNPXTFxp0GhWtrIPBmii2kdhxSHe/wA6cB73qJLdCMmGFeR6Ac1Cil10ThGv1ntgD8zJhh6c+dPT0u2Dlx1K2hl6wCvN4isDxkYPegvW13e3ckNjNPJJDbMywqzEhQxBOM9uw/Sost+7FIpHBAx71P1tBLdCTGdzZpmHpo5/JvyRP0O222IDelKl8qJ1Ec9qe7IBLQD2pM1iIDXV47mqsf8ARJk/klrpVve3AZ8cdqWuq7RbW+VEbgHNOlhplzJLuhJGBzilDrJZI9Q8OX8yn9acl2DWvBfYSt5/wwGbFdzJFtByM+1QRCGTIbGaw0ToB8xNZghaJwyZBr5JCcgZqNYP8u1qluVRSyjNDpHpydsuowO4PaulvNNpWoSQ4Kqx3RHywe4rS3zLNxyTxim+TSLbUbKNZoxkrhSTjnzGfL6/f1qLl3M0kzocOacvRAW6FzafxClQyjJx5itNO1GGSMRMAued/n9aD6nZXnT/AImwSSWpbkH8y/X/AD2NB4+o4oQY3JUMQQzjA71N+Hz7Q95fB9jpP05Zzyi7kldgfU0B6hjSx/At8Dd9yBUWbrS0ePYLgZXhV3dxj2pf1zqM31yqWgkZsbUwMZzTI49t9g5OTjU9EnQllvb1IFGQJdzt6KKcNViKtDQvpO0FjZLuAM0rlpGxzkHGPoOaL6xIWMIIp8f6aOddPXYVhP4Cj2FLuqRA6shwODTHarmJT7UC1VSNUXnzp8a2DT6GHpqXZfeGexSkj4j24k6hOzAyKbNMnSC5Dk87cUldZXhk1/xBnbwKo+AG1pGGYLx6VsssbcHg1zu3IkJ28V1t/BKBnWhTMZUHf8h4ojY28ksfiTN4UJO0ORnJ9BRnSOnI0thqWqI8cHeO35Dy/X/Sv9z7Vw17UrGWNYdscMcfAVV3Bft5V74/JtgqHWH0/UEeWITQxnBQ4U49ven3pnUNP1WyaSzlDgcPGfzqR2JH71XUqWtxCFhmSU9wQ2T+tApXvdMvkurSZ7eVSdsiHFRcjizb8l7LePyqxrT7Rcetw+LHsdAdvmw5x6e9V3rHTsdxK20GPC5+Tz+37V1034jyMFt9dti//sQjn7r/AI/SjEd9p+pp41leQz+wOGH1HcVGovEzoeWLkLoSU6XuA21Z7cL5YhGf1rSLSU07UIbiZy7rIuCey8jt6U5TooUuuV9cjtS9rCXMs6F2XZny7mqoy1XtkmTjzK6QzaciSMCvZssPuSf3rHUKGKWI59Kt3pDp/Q9Q6C0SO/09VuFskAuIvlkGeRk+ffzzSZ8QPh/rEZW80aZdTgjOXhVdsyr67ezfbn2qiePc15HNvKm9AmykJiX6UF1lgNTQk45orZ7ljUMCCOCCMEGg2v4N8nrmihdhW+iTKSNpHIxSfr4DX43d802OxEYzntST1DMV1JfPJpwomWcOoandpZWVs09w54Re/wBfYe5qzem+m7Tp+3W41ExX2pZG1dpMUJ/2g/mPuft61t0xDpeg6d/DWbiW5Yf9TcD+s+gOOFHkufrUo3kE7kxzB3PqcH7D/FNjEl2zyrbIeri4uN7l0YkklSSf+Pel6ewQjLowIPPO4H7ny+tMNyzAHBAIGeB2oTe3TxMC6Fh7JxgUdJAp6Fq+0W1O7w3aJj/oOB+goFdaddQ5CXLyAZ+Vuab59SsmPBxj1HaoN1c2L5/GC4/Qk1PUp+hqYjXAHzK4w3nxkVDeOVCGjyG8irfvTTfrYSAsJ4wPMZ70GuYrUEfMmf8Ab3pD2gyHFrut2w2xahcbQcYZtwH61ibqLW3GXnQ8eaDmszGIKcMSSf6u31qI43MFUDvwduMVkp+j3zv/AKPYPQ1866BpdrdSh7gWcQdgAozsHYfejMlykM3zuEkAJDduR/8AKqD4e6m9tptnFJK8rBAGdu5/WrQW4gubZGlkCtgFXxnaw/auhD6I7XZA6rsdL6gspriHw7fVIxlJF4Evs3+aqi20ma/1bw5dytG+HTOGXnmnLrCSbQNQ3nPgOdyhewU9xnzpG1/Vbu21mLVLQiRSfDmx3yB8rfcf3FDUSq2DVV46RYWpdNaaukZfh1Xgg4z9apvqCwVtSZYFL7W7jmn+x6gm1eMpINgxgktwK1j0GxF40qkZZgCN396VyMbyacEay0n2z//Z'</field>
+				<field name="partner_ids">[6, 0, False]</field>
+				<field name="notified_partner_ids">[6, 0, False]</field>
+				<field name="needaction">False</field>
+				<field name="has_error">False</field>
+				<field name="channel_ids">[6, 0, False]</field>
+				<field name="starred_partner_ids">[6, 0, False]</field>
+				<field name="starred">False</field>
+				<field name="no_auto_thread">False</field>
+				<field name="message_id">&lt;262765378613870.1583418328.423842906951904-openerp-2-sale.order@DESKTOP-A7BTR07&gt;</field>
+				<field name="reply_to">&quot;OdooBot&quot; &lt;odoobot@example.com&gt;</field>
+				<field name="mail_server_id">False</field>
+				<field name="moderation_status">False</field>
+				<field name="moderator_id">False</field>
+				<field name="need_moderation">False</field>
+				<field name="email_layout_xmlid">False</field>
+				<field name="add_sign">True</field>
+				<field name="snailmail_error">False</field>
+				<field name="snailmail_status"></field>
+				<field name="message_type">comment</field>
+				<field name="has_sms_error">False</field>
+				<field name="display_name">S00002</field>
+				<field name="create_uid" ref="base.user_root"></field>
+				<field name="create_date">2020-03-05 14:25:22.715372</field>
+				<field name="write_uid" ref="base.user_root"></field>
+				<field name="write_date">2020-03-05 14:25:22.715372</field>
+				<field name="__last_update">2020-03-05 14:25:22.715372</field>
+			</record>
+			<record id="sale_order_2" model="sale.order">
+				<field name="id">2</field>
+				<field name="name">S00002</field>
+				<field name="origin">False</field>
+				<field name="client_order_ref">False</field>
+				<field name="reference">False</field>
+				<field name="state">sale</field>
+				<field name="date_order">2020-03-05 23:21:55</field>
+				<field name="validity_date">False</field>
+				<field name="is_expired">False</field>
+				<field name="require_signature">True</field>
+				<field name="require_payment">True</field>
+				<field name="remaining_validity_days">0</field>
+				<field name="create_date">2020-03-05 14:25:22.715372</field>
+				<field name="user_id" ref="base.user_admin"></field>
+				<field name="partner_id" ref="base.res_partner_4"></field>
+				<field name="partner_invoice_id" ref="base.res_partner_address_13"></field>
+				<field name="partner_shipping_id" ref="base.res_partner_address_13"></field>
+				<field name="pricelist_id" ref="product.list0"></field>
+				<field name="currency_id" ref="base.CNY"></field>
+				<field name="analytic_account_id">False</field>
+				<field name="invoice_count">0</field>
+				<field name="invoice_ids">[6, 0, False]</field>
+				<field name="invoice_status">no</field>
+				<field name="note"></field>
+				<field name="amount_untaxed">2947.5</field>
+				<field name="amount_by_group">[]</field>
+				<field name="amount_tax">0.0</field>
+				<field name="amount_total">2947.5</field>
+				<field name="currency_rate">1.0</field>
+				<field name="payment_term_id">False</field>
+				<field name="fiscal_position_id">False</field>
+				<field name="company_id" ref="base.main_company"></field>
+				<field name="team_id" ref="sales_team.team_sales_department"></field>
+				<field name="signature">False</field>
+				<field name="signed_by">False</field>
+				<field name="signed_on">False</field>
+				<field name="commitment_date">False</field>
+				<field name="expected_date">2020-03-05 23:21:55</field>
+				<field name="amount_undiscounted">2947.5</field>
+				<field name="type_name">销售订单</field>
+				<field name="transaction_ids">[6, 0, False]</field>
+				<field name="authorized_transaction_ids">[6, 0, False]</field>
+				<field name="sale_order_template_id">False</field>
+				<field name="campaign_id" ref="utm.utm_campaign_email_campaign_products"></field>
+				<field name="source_id" ref="sale.utm_source_sale_order_0"></field>
+				<field name="medium_id" ref="utm.utm_medium_email"></field>
+				<field name="activity_state">False</field>
+				<field name="activity_user_id">False</field>
+				<field name="activity_type_id">False</field>
+				<field name="activity_date_deadline">False</field>
+				<field name="activity_summary">False</field>
+				<field name="activity_exception_decoration">False</field>
+				<field name="activity_exception_icon">False</field>
+				<field name="message_is_follower">True</field>
+				<field eval="[(6, 0, 'ref(base.partner_admin)'), (6, 0, 'ref(False)')]" name="message_partner_ids"></field>
+				<field name="message_channel_ids">[6, 0, False]</field>
+				<field name="message_unread">False</field>
+				<field name="message_unread_counter">0</field>
+				<field name="message_needaction">False</field>
+				<field name="message_needaction_counter">0</field>
+				<field name="message_has_error">False</field>
+				<field name="message_has_error_counter">0</field>
+				<field name="message_attachment_count">0</field>
+				<field name="message_main_attachment_id">False</field>
+				<field name="message_has_sms_error">False</field>
+				<field name="access_url">/my/orders/2</field>
+				<field name="access_token">False</field>
+				<field name="access_warning"></field>
+				<field name="display_name">S00002</field>
+				<field name="create_uid" ref="base.user_root"></field>
+				<field name="write_uid" ref="base.user_admin"></field>
+				<field name="write_date">2020-03-05 15:12:40.548848</field>
+				<field name="__last_update">2020-03-05 15:12:40.548848</field>
+			</record>
+		</data>
+	</odoo>
