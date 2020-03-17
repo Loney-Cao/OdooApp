@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend" name="Web X2Many CheckBox Assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" href="/cs_web_x2many_tree_table/static/src/lib/layui/css/layui.css"/>
+            <script type="text/javascript" src="/cs_web_x2many_tree_table/static/src/lib/layui/layui.js"/>
+            <link rel="stylesheet" href="/cs_web_x2many_tree_table/static/src/lib/treeTable/treeTable.css"/>
+            <script type="text/javascript" src="/cs_web_x2many_tree_table/static/src/lib/treeTable/treeTable.js"/>
+        </xpath>
+    </template>
+</odoo>
