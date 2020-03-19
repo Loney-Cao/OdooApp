@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="assets_backend" name="Web X2Many CheckBox Assets" inherit_id="web.assets_backend">
+    <template id="assets_backend" name="Web X2Many TreeTable Assets" inherit_id="web.assets_backend">
         <xpath expr="." position="inside">
-            <link rel="stylesheet" href="/cs_web_x2many_tree_table/static/src/lib/layui/css/layui.css"/>
-            <script type="text/javascript" src="/cs_web_x2many_tree_table/static/src/lib/layui/layui.js"/>
-            <link rel="stylesheet" href="/cs_web_x2many_tree_table/static/src/lib/treeTable/treeTable.css"/>
-            <script type="text/javascript" src="/cs_web_x2many_tree_table/static/src/lib/treeTable/treeTable.js"/>
+            <link rel="stylesheet" href="/cs_web_x2many_tree_table/static/src/layui/css/layui.css"/>
+            <script type="text/javascript" src="/cs_web_x2many_tree_table/static/src/layui/layui.js"/>
+
+            <link rel="stylesheet" href="/cs_web_x2many_tree_table/static/src/treeTable/treeTable.css"/>
+            <script type="text/javascript" src="/cs_web_x2many_tree_table/static/src/treeTable/treeTable.js"/>
+
+            <script type="text/javascript" src="/cs_web_x2many_tree_table/static/src/js/init_tree_table.js"/>
+            <script type="text/javascript" src="/cs_web_x2many_tree_table/static/src/js/fileds_tree_table.js"/>
         </xpath>
     </template>
 </odoo>

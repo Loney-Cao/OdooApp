@@ -98,6 +98,9 @@ layui.define(['layer', 'laytpl', 'form'], function (exports) {
         var options = this.options;
         var tbFilter = options.elem.substring(1);  // 树表格的filter
         var $elem = $(options.elem);  // 原始表格
+        console.log('初始化treetable');
+        console.log($elem);
+
 
         // 生成树表格dom
         $elem.removeAttr('lay-filter');
