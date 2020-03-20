@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+       
+        <menuitem id="search_main_menu"
+                name="搜你所想"/>
+
+        <menuitem id="search_menu"
+                name="搜吧"
+                parent="search_main_menu"
+                action="action_search" />
+    </data>
+</odoo>

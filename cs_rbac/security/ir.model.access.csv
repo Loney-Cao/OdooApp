@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_cs_role,cs.role,model_cs_role,base.group_system,1,1,1,1
+access_cs_menu_access_control,cs.menu.access.control,model_cs_menu_access_control,base.group_system,1,1,1,1
+access_cs_rule,cs.rule,model_cs_rule,base.group_system,1,1,1,1
