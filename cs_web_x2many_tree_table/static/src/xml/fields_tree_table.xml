@@ -2,7 +2,7 @@
 <templates id="template" xml:space="preserve">
 
     <div t-name="fields_tree_table">
-        <table id="FieldsTreeTable"></table>
+        <table id="FieldsTreeTable"/>
     </div>
 
 </templates>

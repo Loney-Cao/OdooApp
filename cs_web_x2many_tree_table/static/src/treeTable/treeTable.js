@@ -23,6 +23,7 @@ layui.define(['layer', 'laytpl', 'form'], function (exports) {
         // 表格默认参数
         var defaultOption = {
             elem: undefined,   // table容器
+            table_node: undefined,  // table节点
             data: [],  // 数据
             cols: [],  // 列配置
             reqData: undefined,  // 异步加载数据的方法
@@ -97,10 +98,8 @@ layui.define(['layer', 'laytpl', 'form'], function (exports) {
     TreeTable.prototype.init = function () {
         var options = this.options;
         var tbFilter = options.elem.substring(1);  // 树表格的filter
-        var $elem = $(options.elem);  // 原始表格
-        console.log('初始化treetable');
-        console.log($elem);
-
+        var $elem = options.table_node.find(options.elem);  // 直接使用节点
+        // var $elem = $(options.elem);  // 原始表格
 
         // 生成树表格dom
         $elem.removeAttr('lay-filter');
@@ -511,7 +510,7 @@ layui.define(['layer', 'laytpl', 'form'], function (exports) {
 
     /** 获取各个组件 */
     TreeTable.prototype.getComponents = function () {
-        var $view = $(this.options.elem).next();   // 容器
+        var $view = this.options.table_node.find(this.options.elem).next();   // 使用节点获取容器
         var $group = $view.children('.ew-tree-table-group');  // 表格容器
         var $tbBox = $group.children('.ew-tree-table-box');  // 表格主体部分容器
         var $table = $tbBox.children('.layui-table');  // 主体表格
