@@ -394,3 +394,20 @@
     width: 10px;
     cursor: col-resize;
 }*/
+
+/* 时间字段的背景 */
+/* [lay-date] {
+    background-image: url(/cs_web_x2many_tree_table/static/src/treeTable/image/icon_date.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding-right: 28px;
+    cursor: pointer;
+} */
+
+.lay-field-date >.ew-tree-table-td-single >.ew-tree-tips {
+    background-image: url(/cs_web_x2many_tree_table/static/src/treeTable/image/icon_date.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding-right: 28px;
+    cursor: pointer;
+}
