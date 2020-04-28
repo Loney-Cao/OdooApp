@@ -2,7 +2,7 @@
 # from . import models
 from . import wizard
 from . import controllers
-from . import patch_model
+from .hooks import patch_fvg
 
 
 

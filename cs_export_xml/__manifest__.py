@@ -20,6 +20,7 @@
     'qweb': ["static/src/xml/*.xml"],
     'js': ["static/src/js/*.js"],
     'css': ["static/src/css/*.css"],
+    'post_load': 'patch_fvg',
 
 
 }

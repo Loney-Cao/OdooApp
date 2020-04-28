@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- 配置向导界面 -->
+    <record id="reject_apply_wizard_form" model="ir.ui.view">
+        <field name="name">reject.apply.wizard.form</field>
+        <field name="model">reject.apply.wizard</field>
+        <field name="arch" type="xml">
+            <form>
+                <group name="group_top">
+                    <field name="reject_reason"/>
+               </group>
+                <footer>
+                    <button string="残忍拒绝" name="action_reject_apply" type="object" class="btn-danger"/>
+                    <button string="取消" class="btn btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    
+    <record id="action_reject_apply_wizard_form" model="ir.actions.act_window">
+        <field name="name">拒绝申请</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">reject.apply.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="context">{}</field>
+        <field name="target">new</field>
+    </record>
+
+
+</odoo>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_single_dog_tag_form" model="ir.ui.view">
+            <field name="name">single.dog.tag.form</field>
+            <field name="model">single.dog.tag</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="is_show"/>
+                            <field name="like_num" readonly="1"/>
+                            <field name="unlike_num" readonly="1"/>
+                        </group>
+                        <notebook>
+                                <page>
+                                    <field name="like_or_unlik_ids" readonly="1">
+                                        <tree>
+                                            <field name="dog_id" />
+                                            <field name="like" />
+                                            <field name="unlike" />
+                                        </tree>
+                                    </field>
+                                </page>
+                            </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_single_dog_tag_tree" model="ir.ui.view">
+            <field name="name">single.dog.tag.tree</field>
+            <field name="model">single.dog.tag</field>
+            <field name="arch" type="xml">
+                <tree string="标签">
+                    <field name="name"/>
+                    <field name="like_num"/>
+                    <field name="unlike_num"/>
+                </tree>
+            </field>
+        </record>
+
+        
+
+        <act_window
+            id="action_single_dog_tag"
+            name="标签"
+            res_model="single.dog.tag"/>
+
+    </data>
+</odoo>

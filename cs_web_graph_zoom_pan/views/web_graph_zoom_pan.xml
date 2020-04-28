@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="assets_backend" name="Graph Zoom And Pan Assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/cs_web_graph_zoom_pan/static/lib/chart.js@2.9.1.js"></script>
+                <script type="text/javascript" src="/cs_web_graph_zoom_pan/static/lib/hammerjs@2.0.8.js"></script>
+                <script type="text/javascript" src="/cs_web_graph_zoom_pan/static/lib/chartjs-plugin-zoom@0.7.4.js"></script>
+                <script type="text/javascript" src="/cs_web_graph_zoom_pan/static/src/js/patch_graph_view.js"/>
+                <script type="text/javascript" src="/cs_web_graph_zoom_pan/static/src/js/patch_graph_renderer.js"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>

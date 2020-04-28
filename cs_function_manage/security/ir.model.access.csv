@@ -1,0 +1,8 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_single_dog,single.dog,model_single_dog,base.group_user,1,1,1,1
+access_pair_history,pair.history,model_pair_history,base.group_user,1,1,1,1
+access_pair_apply,pair.apply,model_pair_apply,base.group_user,1,1,1,1
+access_single_dog_comment,single.dog.comment,model_single_dog_comment,base.group_user,1,1,1,1
+access_single_dog_tag,single.dog.tag,model_single_dog_tag,base.group_user,1,1,1,1
+access_like_or_unlike,like.or.unlike,model_like_or_unlike,base.group_user,1,1,1,1
+access_looking_dog_wizard,looking.dog.wizard,model_looking_dog_wizard,base.group_user,1,1,1,1

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="assets_backend" name="Dynamic Dispaly Button Assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/cs_web_view_dynamic_dispaly_button/static/src/js/patch_form_controller.js"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>

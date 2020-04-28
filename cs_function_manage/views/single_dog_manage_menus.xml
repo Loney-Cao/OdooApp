@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <menuitem id="single_dog_manage_root_menu"
+                  web_icon="cs_single_dog_manage,static/description/icon.png"
+                  name="单身狗管理系统"/>
+
+        <menuitem id="single_dog_menu"
+                  name="单身狗"
+                  parent="single_dog_manage_root_menu"
+                  action="action_single_dog" />
+
+
+    </data>
+</odoo>
